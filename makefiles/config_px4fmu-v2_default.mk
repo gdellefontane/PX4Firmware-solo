@@ -124,11 +124,13 @@ MODULES		+= platforms/nuttx
 # OBC challenge
 #
 MODULES		+= modules/bottle_drop
+MODULE		+= modules/px4_simple_app
 
 #
 # PX4 flow estimator, good for indoors
 #
 MODULES		+= examples/flow_position_estimator
+
 
 #
 # Demo apps
